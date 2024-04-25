@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title>Netfilm</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="img-container">
+            <img src="images/parasyte.jpg" alt="">
+        </div>
+        <div class="content">
+
+            <div class="title">
+                <h1>Parasyte</h1>
+            </div>
+            <div class="description">
+                <p>Description
+                    <p>When unidentified parasites violently take over human hosts and gain power, humanity must rise to combat the growing threat.
+
+                    </p>
+                </p>
+            </div>
+            <div class="rating">
+                <p>IMDb Rating : </p>
+                <img src="./images/star.png" alt="">
+                <p>8/10</p>
+            </div>
+            <div class="play-btn">
+                <button> <i class="ri-play-fill"></i> Play</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector(".play-btn").addEventListener("click", function(){
+            window.location.href = "https://netfilm.app/watch/tv/208825"
+        })
+    </script>
+</body>
+
+</html>
